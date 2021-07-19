@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="635768820" usesScalarValueType="NO"/>
+        <attribute name="location" attributeType="String" defaultValueString=""/>
+        <attribute name="notes" attributeType="String" defaultValueString=""/>
+        <attribute name="sport" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserSettings" representedClassName="UserSettings" syncable="YES">
+        <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="privateSession" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="surname" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="Record" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="UserSettings" positionX="-63" positionY="18" width="128" height="89"/>
+    </elements>
+</model>
